@@ -224,20 +224,20 @@ body {
 
 .explore-btns :nth-child(1) {
   font-family: var(--monospace);
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
   background-color: var(--golden);
   text-decoration: none;
   color: var(--lighter-blue);
-  padding: 20px 30px;
+  padding: 12px 20px;
   margin-right: 20px;
 }
 
 .explore-btns :nth-child(2) {
   font-family: var(--monospace);
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
   text-decoration: none;
