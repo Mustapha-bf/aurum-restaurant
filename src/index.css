@@ -32,8 +32,8 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 120px;
-  padding: 30px 60px;
+  height: 96px;
+  padding: 24px 48px;
   background: linear-gradient(rgba(0, 0, 0, 0.34), rgba(171, 171, 171, 0));
   position: fixed;
   top: 0;
@@ -41,21 +41,21 @@ body {
 }
 
 .nav-bar .logo {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 500;
   font-family: var(--fancy-font);
-  letter-spacing: 10px;
+  letter-spacing: 8px;
 }
 
 .nav-bar .nav-links {
   display: flex;
-  gap: 50px;
+  gap: 40px;
 }
 
 .nav-bar .nav-links a {
   text-decoration: none;
   color: var(--white);
-  font-size: 18px;
+  font-size: 14px;
   letter-spacing: 3px;
   position: relative;
   font-family: var(--monospace);
@@ -66,10 +66,10 @@ body {
 }
 
 .nav-bar .reserve-btn {
-  padding: 10px 30px;
+  padding: 8px 24px;
   color: var(--golden);
   border: var(--golden) 2px solid;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 600;
   letter-spacing: 2px;
   cursor: pointer;
@@ -86,31 +86,31 @@ body {
 }
 
 .listings {
-  height: 460px;
-  width: 350px;
+  height: 368px;
+  width: 280px;
   background-color: #1a2540;
   position: fixed;
-  top: 40px;
-  right: 20px;
+  top: 32px;
+  right: 16px;
   box-shadow: 0px 0px 2px var(--gray);
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  gap: 24px;
 }
 
 .explore-more {
   width: 100%;
   text-decoration: none;
   color: var(--white);
-  font-size: 18px;
+  font-size: 14px;
   letter-spacing: 3px;
   position: relative;
   font-family: var(--monospace);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 40px;
+  padding: 32px;
 }
 
 .explore-more :nth-child(2) {
@@ -122,10 +122,10 @@ body {
 }
 
 .reserve-button {
-  padding: 10px 30px;
+  padding: 8px 24px;
   color: var(--golden);
   border: var(--golden) 2px solid;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 600;
   letter-spacing: 2px;
   cursor: pointer;
@@ -137,13 +137,13 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 24px;
 }
 
 .links-list a {
   text-decoration: none;
   color: var(--white);
-  font-size: 18px;
+  font-size: 14px;
   letter-spacing: 3px;
   position: relative;
   font-family: var(--monospace);
@@ -162,7 +162,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  padding: 180px 0px 40px 0px;
+  padding: 144px 0px 32px 0px;
   align-items: center;
   background-image: url('assets/home bg.png');
   background-position: center;
@@ -189,22 +189,22 @@ body {
 .established {
   font-family: var(--monospace);
   letter-spacing: 3px;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
-  padding: 20px;
+  padding: 16px;
 }
 
 .welcome {
   font-family: var(--monospace);
-  font-size: 30px;
+  font-size: 24px;
   text-transform: uppercase;
   text-align: center;
 }
 
 .slogan {
   font-family: var(--fancy-font);
-  font-size: 150px;
+  font-size: 120px;
   text-align: center;
   font-style: italic;
   color: var(--white);
@@ -216,35 +216,35 @@ body {
 
 .tagline {
   display: flex;
-  gap: 30px;
+  gap: 24px;
   font-family: var(--monospace);
   text-transform: uppercase;
   letter-spacing: 2px;
   color: var(--gray);
   text-shadow: 2px 2px 2px var(--golden);
-  padding: 30px;
+  padding: 24px;
 }
 
 .explore {
-  padding: 30px;
+  padding: 24px;
 }
 
 .explore-btns :nth-child(1) {
   font-family: var(--monospace);
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
   background-color: var(--golden);
   text-decoration: none;
   color: var(--lighter-blue);
-  padding: 20px 30px;
-  margin-right: 20px;
+  padding: 16px 24px;
+  margin-right: 16px;
 }
 
 .explore-btns :nth-child(2) {
   font-family: var(--monospace);
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
   text-decoration: none;
@@ -255,7 +255,7 @@ body {
 
 .scroll {
   width: 100%;
-  padding: 70px;
+  padding: 56px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -273,13 +273,10 @@ body {
   animation: scrollPulse 2s ease-in-out infinite;
 }
 
-
-
-
 /* Story Styling */
 .story-page {
   height: 100vh;
-  padding: 0 20px 0 150px ;
+  padding: 0 16px 0 120px;
   display: flex;
   flex-direction: row;
   align-items: stretch;
@@ -290,7 +287,7 @@ body {
 .right-container {
   width: 20%;
   height: 70%;
-  margin: 100px 150px 100px 0;
+  margin: 80px 120px 80px 0;
   position: relative;
   display: flex;
 }
@@ -316,24 +313,24 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 200px;
-  gap: 20px;
+  padding-right: 160px;
+  gap: 16px;
 }
 
 .story-head {
   font-family: var(--monospace);
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 2px;
   font-weight: 500;
-  padding-bottom: 30px;
+  padding-bottom: 24px;
 }
 
 .story-title {
   font-family: var(--fancy-font);
-  font-size: 80px;
+  font-size: 64px;
   letter-spacing: 2px;
   font-weight: 500;
-  padding-bottom: 30px;
+  padding-bottom: 24px;
   font-style: italic;
 }
 
@@ -345,7 +342,7 @@ body {
   font-family: var(--monospace);
   color: var(--gray);
   font-weight: 100;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .insights {
@@ -360,7 +357,7 @@ body {
   justify-content: center;
   flex-direction: column;
   padding: 2% 5% 3% 5%;
-  margin-top: 20px;
+  margin-top: 16px;
   font-family: var(--monospace);
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -369,8 +366,8 @@ body {
 
 .insights span {
   font-family: var(--fancy-font);
-  font-size: 40px;
-  padding-bottom: 20px;
+  font-size: 32px;
+  padding-bottom: 16px;
   color: var(--golden);
 }
 
@@ -389,11 +386,9 @@ body {
 }
 
 /* Menu Styling */
-
 .menu-page {
   height: 100vh;
 }
-
 
 /* Experience Styling */
 .experience-page {
@@ -405,8 +400,6 @@ body {
   height: 100vh;
 }
 
-
-
 @media screen and (max-width: 1000px) {
   .nav-bar .nav-links {
     display: none;
@@ -417,7 +410,7 @@ body {
   }
 
   .slogan {
-    font-size: 100px;
+    font-size: 80px;
   }
 
   .links-btn {
@@ -429,26 +422,51 @@ body {
   }
 
   .scroll {
-    padding: 100px;
+    padding: 80px;
   }
 
   .story-page {
-    padding: 20px;
+    padding: 16px;
   }
 
   .left-container {
-    padding-right: 30px;
+    padding-right: 24px;
   }
 
   .right-container {
-    margin-right: 10px;
+    margin-right: 8px;
   }
 
   .story-title {
-    font-size: 70px;
+    font-size: 50px;
   }
 
   .story-p {
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .insights {
+    gap: 20px;
+    width: 70%;
+  }
+
+  .insights p {
+    margin: 0;
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  .insights p:nth-child(1), .insights p:nth-child(3) {
+    border: 1px solid rgb(87, 80, 39);
+  }
+
+  .insights span {
+    font-size: 25px;
+  }
+
+  .story-p {
+    font-size: 18px;
   }
 }
