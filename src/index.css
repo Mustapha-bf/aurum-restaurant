@@ -162,7 +162,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  padding: 180px 0px 40px 0px;
+  padding: 100px 0px 40px 0px;
   align-items: center;
   background-image: url('assets/home bg.png');
   background-position: center;
