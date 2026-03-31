@@ -447,19 +447,17 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .insights {
-    gap: 20px;
-    width: 70%;
+  .explore-btns :nth-child(1) {
+    font-size: 9px;
+    padding: 10px 20px;
   }
 
-  .insights p {
-    margin: 0;
-    font-size: 10px;
-    padding: 10px;
+  .explore-btns :nth-child(2) {
+    font-size: 9px;
   }
 
-  .insights p:nth-child(1), .insights p:nth-child(3) {
-    border: 1px solid rgb(87, 80, 39);
+  .explore {
+    padding: 20px;
   }
 
   .insights span {
@@ -468,5 +466,9 @@ body {
 
   .story-p {
     font-size: 18px;
+  }
+
+  .right-container {
+    display: none;
   }
 }
