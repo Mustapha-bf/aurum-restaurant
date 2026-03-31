@@ -41,7 +41,7 @@ body {
 }
 
 .nav-bar .logo {
-  font-size: 25px;
+  font-size: 35px;
   font-weight: 500;
   font-family: var(--fancy-font);
   letter-spacing: 10px;
@@ -279,7 +279,7 @@ body {
 /* Story Styling */
 .story-page {
   height: 100vh;
-  padding: 0 20px 0 150px ;
+  padding: 0 20px 0 150px;
   display: flex;
   flex-direction: row;
   align-items: stretch;
