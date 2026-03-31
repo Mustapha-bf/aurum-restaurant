@@ -18,7 +18,6 @@
 }
 
 body {
-  height: 100vh;
   color: var(--golden);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background:
@@ -385,14 +384,93 @@ body {
   border-bottom: 1px solid rgb(87, 80, 39);
 }
 
+
+
+
 /* Menu Styling */
 .menu-page {
-  height: 100vh;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-/* Experience Styling */
-.experience-page {
-  height: 100vh;
+.avl {
+  font-size: 16px;
+  font-family: var(--monospace);
+  letter-spacing: 2px;
+  padding: 50px 0 20px 0;
+}
+
+.head-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.menu-txt {
+  font-family: var(--fancy-font);
+  font-size: 60px;
+}
+
+.menu-sections {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-sections button {
+  background-color: transparent;
+  border: none;
+  color: var(--gray);
+  padding: 20px;
+  font-family: var(--monospace);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+.menu-sections button:hover {
+  color: var(--golden);
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.menu-sections .active {
+  color: var(--golden);
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.menu-list {
+  display: grid;
+  grid-template-columns:repeat(2, 1fr);
+}
+
+.menu-item {
+  padding: 50px 30px;
+  border: 1px solid rgb(87, 80, 39);
+  display: grid;
+  grid-template-columns: 4fr 0.4fr;
+}
+
+.item-name {
+  font-family: var(--fancy-font);
+  font-size: 22px;
+  color: var(--white);
+  padding-bottom: 20px;
+}
+
+.item-desc {
+  font-family: var(--monospace);
+  color: var(--gray);
+  font-weight: 100;
+}
+
+.item-price {
+  font-family: var(--fancy-font);
 }
 
 /* Reserve Styling */
@@ -443,6 +521,22 @@ body {
 
   .story-p {
     font-size: 20px;
+  }
+
+  .menu-txt {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .menu-page {
+    padding: 20px;
+  }
+  .menu-sections {
+    flex-direction: column;
+  }
+  .menu-item {
+    grid-template-rows: 1fr 1fr;
   }
 }
 

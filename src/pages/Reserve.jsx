@@ -2,7 +2,9 @@ import React from 'react'
 
 const Reserve = () => {
   return (
-    <div className="reserve-page" id='reserve'></div>
+    <div className="reserve-page" id='reserve'>
+      <p className="rsv">reserve ⸺</p>
+    </div>
   )
 }
 

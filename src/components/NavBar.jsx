@@ -10,7 +10,6 @@ const NavBar = () => {
                 <a href="#home">HOME</a>
                 <a href="#story">STORY</a>
                 <a href="#menu">MENU</a>
-                <a href="#experience">EXPERIENCE</a>
             </div>
             <div className="reserve-btn"><a href="#reserve">RESERVE</a></div>
             <MdOutlineMenu size={40} className="links-btn" onClick={() => { setOpen(!isOpen) }} />
