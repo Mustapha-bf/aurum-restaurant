@@ -197,7 +197,7 @@ body {
 
 .slogan {
   font-family: var(--fancy-font);
-  font-size: 120px;
+  font-size: 100px;
   text-align: center;
   font-style: italic;
   color: var(--white);
