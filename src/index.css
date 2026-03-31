@@ -460,6 +460,10 @@ body {
     padding: 30px;
   }
 
+  .insights {
+    padding-right: 20px;
+  }
+
   .insights span {
     font-size: 25px;
   }
