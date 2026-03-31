@@ -532,9 +532,6 @@ body {
   .menu-page {
     padding: 20px;
   }
-  .menu-sections {
-    flex-direction: column;
-  }
   .menu-item {
     grid-template-rows: 1fr 1fr;
   }
@@ -544,33 +541,42 @@ body {
   .nav-bar {
     padding: 20px 30px;
   }
-
+  
   .explore-btns :nth-child(1) {
     font-size: 9px;
     padding: 10px 20px;
   }
-
+  
   .explore-btns :nth-child(2) {
     font-size: 9px;
   }
-
+  
   .explore {
     padding: 30px;
   }
-
+  
   .insights {
     padding-right: 70px;
   }
-
+  
   .insights span {
     font-size: 25px;
   }
-
+  
   .story-p {
     font-size: 18px;
   }
-
+  
   .right-container {
     display: none;
+  }
+
+  .menu-sections {
+    flex-direction: column;
+  }
+
+  .menu-list {
+    display: flex;
+    flex-direction: column;
   }
 }
