@@ -195,16 +195,9 @@ body {
   padding: 20px;
 }
 
-.welcome {
-  font-family: var(--monospace);
-  font-size: 30px;
-  text-transform: uppercase;
-  text-align: center;
-}
-
 .slogan {
   font-family: var(--fancy-font);
-  font-size: 150px;
+  font-size: 120px;
   text-align: center;
   font-style: italic;
   color: var(--white);
