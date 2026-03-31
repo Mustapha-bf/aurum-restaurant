@@ -18,7 +18,7 @@ const NavBar = () => {
                 <div className="listings">
                     <div className='explore-more'>
                         <p>Expore More</p>
-                        <IoCloseSharp size={30} onClick={() => { setOpen(!isOpen) }} />
+                        <IoCloseSharp size={25} onClick={() => { setOpen(!isOpen) }} />
                     </div>
                     <div className="links-list">
                         <a href="#home" onClick={() => { setOpen(!isOpen) }}>HOME</a>
