@@ -446,7 +446,7 @@ body {
 
 .menu-list {
   display: grid;
-  grid-template-columns:repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .menu-item {
@@ -475,8 +475,198 @@ body {
 
 /* Reserve Styling */
 .reserve-page {
-  height: 100vh;
+  min-height: 100vh;
+  padding: 120px 80px 80px 120px;
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  align-items: flex-start;
 }
+
+.reserve-head {
+  font-family: var(--monospace);
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  padding-bottom: 24px;
+}
+
+.reserve-title {
+  font-family: var(--fancy-font);
+  font-size: 64px;
+  font-style: italic;
+  font-weight: 500;
+  padding-bottom: 24px;
+  color: var(--golden);
+}
+
+.reserve-title span {
+  color: var(--white);
+}
+
+.reserve-p {
+  font-family: var(--monospace);
+  color: var(--gray);
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.reserve-email {
+  color: var(--golden);
+}
+
+.hours-table {
+  margin-top: 40px;
+}
+
+.hours-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0;
+  border-bottom: 1px solid rgb(87, 80, 39);
+  font-family: var(--monospace);
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.hours-day {
+  color: var(--gray);
+  font-weight: 300;
+}
+
+.hours-time {
+  color: var(--white);
+}
+
+.hours-closed {
+  color: var(--gray);
+}
+
+.res-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-family: var(--monospace);
+  font-size: 10px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--gray);
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group select {
+  background: var(--lighter-blue);
+  border: 1px solid rgb(87, 80, 39);
+  color: var(--white);
+  padding: 14px 16px;
+  font-size: 13px;
+  font-family: var(--monospace);
+  font-weight: 300;
+  outline: none;
+  transition: border-color 0.3s;
+  appearance: none;
+}
+
+.form-group input::placeholder {
+  color: var(--gray);
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: var(--golden);
+}
+
+.form-group select option {
+  background: var(--lighter-blue);
+}
+
+.btn-submit {
+  margin-top: 8px;
+  width: 100%;
+  background: transparent;
+  border: 1px solid var(--golden);
+  color: var(--golden);
+  padding: 16px;
+  font-size: 11px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--monospace);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-submit:hover {
+  background: var(--golden);
+  color: var(--dark-blue);
+}
+
+
+/* Footer styling */
+
+footer {
+  background: #060b16;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(201, 168, 76, 0.15);
+}
+
+.footer-logo {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: 8px;
+  color: var(--gold);
+  text-transform: uppercase;
+}
+
+.footer-copy {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.footer-links a {
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: var(--gold);
+}
+
 
 @media screen and (max-width: 1000px) {
   .nav-bar .nav-links {
@@ -526,12 +716,19 @@ body {
   .menu-txt {
     font-size: 40px;
   }
+
+  .reserve-page {
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 40px 60px 40px;
+  }
 }
 
 @media screen and (max-width: 800px) {
   .menu-page {
     padding: 20px;
   }
+
   .menu-item {
     grid-template-rows: 1fr 1fr;
   }
@@ -541,32 +738,32 @@ body {
   .nav-bar {
     padding: 20px 30px;
   }
-  
+
   .explore-btns :nth-child(1) {
     font-size: 9px;
     padding: 10px 20px;
   }
-  
+
   .explore-btns :nth-child(2) {
     font-size: 9px;
   }
-  
+
   .explore {
     padding: 30px;
   }
-  
+
   .insights {
     padding-right: 70px;
   }
-  
+
   .insights span {
     font-size: 25px;
   }
-  
+
   .story-p {
     font-size: 18px;
   }
-  
+
   .right-container {
     display: none;
   }
@@ -578,5 +775,23 @@ body {
   .menu-list {
     display: flex;
     flex-direction: column;
+  }
+
+  .reserve-page {
+    padding: 120px 20px 60px 20px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .reserve-title {
+    font-size: 50px;
+  }
+
+  .footer-links {
+    align-items: center;
+    flex-direction: column;
+    padding-right: 30px;
   }
 }

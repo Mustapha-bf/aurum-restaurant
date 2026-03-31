@@ -4,6 +4,7 @@ import Story from './pages/Story'
 import Menu from './pages/Menu'
 import Reserve from './pages/Reserve'
 import NavBar from './components/NavBar'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Story />
       <Menu />
       <Reserve />
+      <Footer />
     </>
   )
 }
