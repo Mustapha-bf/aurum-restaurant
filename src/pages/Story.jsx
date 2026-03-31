@@ -2,7 +2,7 @@ import storyImg from '../assets/story.jpg';
 
 const Story = () => {
     return (
-        <div className="story-page" id='story'>
+        <section className="story-page" id='story'>
             <div className="left-container">
                 <p className='story-head'>our story ⸺</p>
                 <p className='story-title'><span>Where</span> craft <span>meets</span> passion</p>
@@ -33,7 +33,7 @@ const Story = () => {
                 <div className="about-frame"></div>
                 <img src={storyImg} alt="Story image" />
             </div>
-        </div>
+        </section>
     )
 }
 

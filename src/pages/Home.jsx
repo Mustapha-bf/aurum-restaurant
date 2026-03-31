@@ -1,5 +1,3 @@
-import NavBar from "../components/NavBar"
-
 const Home = () => {
     return (
         <section className="home" id="home">
