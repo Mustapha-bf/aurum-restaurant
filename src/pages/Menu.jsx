@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import { useState } from 'react';
 
 const menu = {
   'starters': [
@@ -23,10 +23,10 @@ const menu = {
       prix: '1300da',
     },
     {
-      name: 'Truffle Velouté',
-      description: 'Black Périgord truffle, Jerusalem artichoke cream, poached quail egg.',
-      prix: '1300da',
-    },
+      name: 'Burrata Royale',
+      description: 'Creamy burrata, heirloom tomatoes, basil oil, aged balsamic reduction.',
+      prix: '1100da',
+    }
   ],
   'mains': [
     {
